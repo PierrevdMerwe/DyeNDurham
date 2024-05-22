@@ -6,4 +6,5 @@ build_script:
   - cmd: javac src/*.java
 
 test_script:
-  - cmd: java -cp src NameSorterTest
+  - cmd: cd src
+  - cmd: java -cp . NameSorterTest
