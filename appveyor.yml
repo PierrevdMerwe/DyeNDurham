@@ -1,6 +1,6 @@
 environment:
   matrix:
-    - JAVA_HOME: C:\\Users\\pierr\\.jdks\\openjdk-21.0.1
+    - JAVA_HOME: C:\\Users\\pierr\\.jdks\\openjdk-21.0.1\\bin
 
 install:
   - cmd: choco install openjdk21
