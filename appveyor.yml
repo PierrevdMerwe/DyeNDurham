@@ -7,4 +7,5 @@ build_script:
 
 test_script:
   - cmd: cd src
-  - cmd: java -cp . NameSorterTest
+  - cmd: name-sorter ./unsorted-names-list.txt
+  - cmd: java NameSorterTest
